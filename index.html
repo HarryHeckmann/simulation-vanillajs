@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div id="navLeft">
+            <img src="assets/piggy_bank.svg" alt="piggy bank">
+            <h1>Budget Builder</h1>
+        </div>
+        <div id="budgetTracker">
+            <h1>Budget Total:</h1>
+            <span>$</span>
+            <h1 id="budgetTotal">0</h1>
+        </div>
+    </nav>
+
+    <main>
+        <div id="monthlyExpenses">
+            <h3>Monthly Expenses</h3>
+            <div id="expensesDisplay">
+                <ul id="billAdded"></ul>
+                <ul id="billAmountAdded"></ul>
+                <ul id="trashCan"></ul>
+            </div>
+
+
+        </div>
+        <div id="addBill">
+            <h3>Add Bill</h3>
+            <div id="nameInput">
+                <h4>Name</h4>
+                <input id="item" type="text" placeholder="Groceries">
+            </div>
+            <div id="amountInput">
+                <h4>Amount</h4>
+                <input id="amount" type="text" placeholder="60">
+            </div>
+            <button id='addItem' type="submit">Add Item</button>
+        </div>
+    </main>
+</body>
+<script src="main.js"></script>
+
+</html>
